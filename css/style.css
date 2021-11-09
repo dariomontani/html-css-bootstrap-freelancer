@@ -1,12 +1,14 @@
-header{
-    background-color: #2C3E50;
-}
-
 [class*="col-"]{
-    background-color: aquamarine;
     border: 1px solid red;
 }
 
-.h-70 div{
-    height: 70px;
+header{
+    height: 100px;
+    background-color: aquamarine;
+}
+
+.header-container{
+    height: 100%;
+    border: 1px solid black;
+    line-height: 100px;
 }
