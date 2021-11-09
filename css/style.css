@@ -1,14 +1,23 @@
 [class*="col-"]{
-    border: 1px solid red;
 }
 
 header{
     height: 100px;
-    background-color: aquamarine;
+    background-color: yellow;
 }
 
 .header-container{
     height: 100%;
     border: 1px solid black;
     line-height: 100px;
+}
+
+.jumbotron{
+    height: 500px;
+    background-color: aquamarine;
+}
+
+.height-500{
+    height: 500px;
+    border: 1px solid red;
 }
