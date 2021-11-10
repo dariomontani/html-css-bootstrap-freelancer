@@ -27,9 +27,39 @@ html{
     width: 10em;
 }
 
+.star::before,
+.star::after{
+    content: '';
+    height: 4px;
+    width: 15%;
+    border-radius: 10px;
+    background-color: white;
+    display: inline-block;
+}
+
+.star i{
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+
 /* /jumbotron */
 
 /* portfolio */
+.star-black::before,
+.star-black::after{
+    content: '';
+    height: 4px;
+    width: 15%;
+    border-radius: 10px;
+    background-color: black;
+    display: inline-block;
+}
+
+.star-black i{
+    font-size: 1.5em;
+    vertical-align: middle;
+}
+
 .portfolio img{
     width: 100%;
 }
@@ -127,4 +157,3 @@ footer .span-footer-green{
     font-size: medium;
     }
 }
-
