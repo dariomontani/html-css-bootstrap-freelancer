@@ -2,7 +2,41 @@ html{
     font-family: 'Montserrat', sans-serif;
 }
 
+/* header */
 .my-header{
    background-color: #2C3E50; 
    color: white;
+}
+
+.my-header h1{
+    font-size: large;
+}
+
+.my-header li:hover{
+    color: #1abc9c;
+}
+/* /header */
+
+/* jumbotron */
+.jumbotron{
+    background-color: #1abc9c;
+    color: white;
+}
+
+.jumbotron img{
+    width: 50%;
+}
+/* /jumbotron */
+
+/* portfolio */
+
+/* /portfolio */
+
+
+
+
+@media screen and (max-width: 575px){
+    .my-header h1{
+    font-size: medium;
+    }
 }
