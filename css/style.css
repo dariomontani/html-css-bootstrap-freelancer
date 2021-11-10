@@ -26,11 +26,24 @@ html{
 .jumbotron img{
     width: 10em;
 }
+
 /* /jumbotron */
 
 /* portfolio */
 .portfolio img{
     width: 100%;
+}
+
+.portfolio img:first-of-type{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    display: none;
+}
+
+.portfolio .row div:hover img:first-of-type{
+    display: block;
 }
 
 .portfolio .relative{
@@ -44,10 +57,12 @@ html{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+    z-index: 99;
+    display: none;
 }
 
-.portfolio img:hover .plus{
-    display: inline-block;
+.portfolio .row div:hover .plus{
+    display: block;
 }
 /* /portfolio */
 
@@ -64,6 +79,16 @@ html{
 /* /about */
 
 /* contact me */
+.contact-me .form-floating{
+    display: none;
+}
+
+.contact-me .form:active .form-floating,
+.contact-me .form:focus .form-floating,
+.contact-me .form:hover .form-floating{
+    display: block;
+}
+
 /* /contact me */
 
 /* footer */
@@ -80,6 +105,11 @@ footer .social i{
     width: 50px;
     border-radius: 50%;
     line-height: 50px;
+}
+
+footer .social i:hover{
+    filter: invert(1);
+    background-color: black;
 }
 
 footer .span-footer-green{
