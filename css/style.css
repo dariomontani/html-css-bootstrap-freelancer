@@ -63,11 +63,38 @@ html{
 }
 /* /about */
 
+/* contact me */
+/* /contact me */
 
+/* footer */
+.footer-top{
+    background-color: #3a546d;
+    color: white;
+}
 
+footer .social i{
+    font-size: 1.2em;
+    margin: 0 0.2em;
+    border: 1px solid white;
+    height: 50px;
+    width: 50px;
+    border-radius: 50%;
+    line-height: 50px;
+}
+
+footer .span-footer-green{
+    color: #1abc9c;
+}
+
+.footer-bottom{
+    background-color: #2c3e50;
+    color: white;
+}
+/* /footer */
 
 @media screen and (max-width: 575px){
     .my-header h1{
     font-size: medium;
     }
 }
+
